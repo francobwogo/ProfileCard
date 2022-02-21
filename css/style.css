@@ -10,7 +10,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 
 body, div, h1, p {
@@ -150,6 +149,7 @@ div.stats > p {
     background-position: top -35em left -40em,
       bottom -35em right -40em;
     background-size: 1000px;
+    min-height: 450px;
   }
 }
 
